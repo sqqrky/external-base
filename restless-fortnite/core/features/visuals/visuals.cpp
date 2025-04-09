@@ -166,7 +166,7 @@ void visuals::c_visuals::loop() {
 
 void visuals::c_visuals::render() {
 	// put all the render esp inside of the loop func  
-	// nothing else should be defined here, all we're doing is calling the render func
+	// nothing else should be defined here, all we're doing is calling the loop func
 
 	this->loop();
 }
